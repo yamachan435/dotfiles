@@ -1,5 +1,5 @@
 " setting
-"文字コードをUFT-8に設定
+" 文字コードをUFT-8に設定
 set fenc=utf-8
 " 入力中のコマンドをステータスに表示する
 set showcmd
@@ -48,3 +48,6 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+" For Ruby
+autocmd FileType ruby setl smartindent cinwords=if,elsif,else,for,while,try,except,finally,def,class

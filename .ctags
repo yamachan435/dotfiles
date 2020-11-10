@@ -1,1 +1,2 @@
 --recurse=yes
+-f .tags

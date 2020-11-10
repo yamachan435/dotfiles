@@ -6,3 +6,5 @@
   b  = branch
 [credential]
   helper = store
+[core]
+  excludesfile = ~/.gitignore_global

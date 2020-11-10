@@ -24,5 +24,7 @@ set wrapscan
 set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+set tags=.tags
+
 " For Ruby
 autocmd FileType ruby setl smartindent cinwords=if,elsif,else,for,while,try,except,finally,def,class
